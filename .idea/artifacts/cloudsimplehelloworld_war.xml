@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cloudsimplehelloworld:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="cloud-simple-helloworld.war">
+      <element id="artifact" artifact-name="cloudsimplehelloworld:war exploded" />
+    </root>
+  </artifact>
+</component>
