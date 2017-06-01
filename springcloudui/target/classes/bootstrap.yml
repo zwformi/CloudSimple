@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      uri:  http://localhost:8888
+      name: cloud-config-dev
+      profile: default
+  application:
+         name: cloud-simple-ui
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
